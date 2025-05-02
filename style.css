@@ -1,0 +1,81 @@
+/* 전체 글꼴과 기본 배경 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard', sans-serif;
+    background: linear-gradient(to bottom right, #fceabb, #f8b500);
+    color: #2c3e50;
+  }
+  
+  /* 메인 컨테이너 스타일 */
+  .container {
+    max-width: 900px;
+    margin: 3rem auto;
+    background-color: #ffffffcc; /* 반투명 흰색 */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    backdrop-filter: blur(3px);
+  }
+  
+  /* 제목 */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #d35400;
+    margin-bottom: 2rem;
+  }
+  
+  /* 섹션 제목 */
+  h2 {
+    color: #6c5ce7;
+    border-left: 6px solid #a29bfe;
+    padding-left: 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  /* 목록 스타일 */
+  ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.6rem;
+    transition: background-color 0.2s ease-in;
+  }
+  
+  /* 마우스를 올렸을 때 효과 */
+  li:hover {
+    background-color: #ffeaa7;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  
+  /* 코드 태그 스타일 */
+  code {
+    background-color: #dfe6e9;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 0.95rem;
+  }
+  
+  /* 반응형 보완 */
+  @media (max-width: 600px) {
+    .container {
+      margin: 1rem;
+      padding: 1.2rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+  
